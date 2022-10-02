@@ -1,0 +1,24 @@
+@tailwind components;
+
+@layer components {
+  .Table {
+    @apply min-w-full text-center
+  }
+  .Thead {
+    @apply border-b bg-gray-50
+  }
+  .Table-Th {
+    @apply text-sm font-medium text-blue-700 px-6 py-4
+  }
+  .Table-Tr {
+    @apply bg-white border-b
+  }
+  .Table-Td {
+    @apply text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap
+  }
+  .Table-Actions {
+    @apply flex flex-wrap justify-center items-center gap-2 text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap
+  }
+}
+
+
